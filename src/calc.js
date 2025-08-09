@@ -3,6 +3,6 @@ export function add(a, b) {
 }
 
 export function multiply(a, b) {
-  // BUG: 本来は a * b
-  return a + b;
+  // BUG を修正: 正しくは掛け算を行う
+  return a * b;
 }

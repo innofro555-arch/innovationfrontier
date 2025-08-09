@@ -1,4 +1,4 @@
-import { add, multiply } from "../src/calc.js";
+import { add, multiply } from "../../calc.js";
 
 function assertEqual(actual, expected, message) {
   if (actual !== expected) {
