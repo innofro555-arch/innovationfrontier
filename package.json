@@ -1,0 +1,10 @@
+{
+  "name": "innovationfrontier",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/calc.test.js",
+    "start": "node src/index.js"
+  },
+  "license": "MIT"
+}
