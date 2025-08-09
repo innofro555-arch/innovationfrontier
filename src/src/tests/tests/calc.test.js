@@ -1,5 +1,6 @@
 import { add, multiply } from "../src/calc.js";
 
+
 function assertEqual(actual, expected, message) {
   if (actual !== expected) {
     throw new Error(`${message} | actual: ${actual}, expected: ${expected}`);
